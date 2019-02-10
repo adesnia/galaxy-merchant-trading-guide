@@ -9,9 +9,25 @@ The program categorize input into following transactions:
 * Calculate the price of an item by format _how many Credits is glob prok Silver ?_
 
 According to the transactions, the solution contains of 3 parts: 
-* currency: handle anything related to currency i.e registering currency, converting intergalactic currency
-* price: handle items i.e adding items, calculate the price of items
+* currency: handle anything related to currency e.g registering currency, converting intergalactic currency
+* price: handle items e.g adding items, calculate the price of items
 * utils: process the input
+
+##Development
+The solution is using local storage to save the data.
+
+For local development, you can perform _go run main.go_ under cmd directory. Note that to perform converting
+intergalactic units as well as to calculate the price of items, you need to manually seeding the data through
+the terminal.
+
+In order to calculate the conversion of intergalactic unit into number, you need to first add intergalactic
+units you want to use, e.g _glob is I_. 
+
+In order to calculate the price of an item, you need to:
+1. add intergalactic unit you want to use, e.g _pish is X_
+2. add item price into store, e.g _pish pish Iron is 3910 Credits_
+
+Then you can perform intergalactic unit conversion and item price calculation.
 
 #Problem Description
 You decided to give up on earth after the latest financial collapse left 99.99% of the earth's
