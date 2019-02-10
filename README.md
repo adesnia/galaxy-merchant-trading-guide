@@ -13,7 +13,8 @@ According to the transactions, the solution contains of 3 parts:
 * price: handle items e.g adding items, calculate the price of items
 * utils: process the input
 
-##Development
+## Development
+
 The solution is using local storage to save the data.
 
 For local development, you can perform _go run main.go_ under cmd directory. Note that to perform converting
@@ -29,7 +30,8 @@ In order to calculate the price of an item, you need to:
 
 Then you can perform intergalactic unit conversion and item price calculation.
 
-#Problem Description
+# Problem Description
+
 You decided to give up on earth after the latest financial collapse left 99.99% of the earth's
 population with 0.01% of the wealth. Luckily, with the scant sum of money that is left in your
 account, you are able to afford to rent a spaceship, leave earth, and fly all over the galaxy to sell
